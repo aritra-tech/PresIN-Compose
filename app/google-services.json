@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "651671087093",
+    "project_id": "presin-compose",
+    "storage_bucket": "presin-compose.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651671087093:android:6656c9fe2fce758a96e2bc",
+        "android_client_info": {
+          "package_name": "com.twomusketeers.presin_compose"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651671087093-enhrl6m12b3o2qjinsufunq0qvjv8ill.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.twomusketeers.presin_compose",
+            "certificate_hash": "fd28bb7958553070a4f348a9e24d0551193a8f1d"
+          }
+        },
+        {
+          "client_id": "651671087093-9qkfrttq2gcqulsqm5socoep7k9g2a56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPYlhJnpqwuEtWTPWSjGd6YKv0CLmbwvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651671087093-9qkfrttq2gcqulsqm5socoep7k9g2a56.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
