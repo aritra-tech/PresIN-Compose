@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">PresIN-Compose</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="visibility_icon">Visibility icon</string>
+    <string name="demo_password">***************</string>
+    <string name="password">Password</string>
+    <string name="demo_email">youremail1234@gmail.com</string>
+    <string name="enter_your_registered_credentials">Enter your registered credentials</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don’t have an account?</string>
+    <string name="create">Create</string>
 </resources>
