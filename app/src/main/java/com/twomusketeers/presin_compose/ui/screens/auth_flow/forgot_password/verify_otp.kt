@@ -1,4 +1,4 @@
-package com.twomusketeers.presin_compose.ui.screens.forgot_password
+package com.twomusketeers.presin_compose.ui.screens.auth_flow.forgot_password
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.layout.Column
@@ -11,7 +11,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
@@ -30,13 +29,14 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavHostController
 import com.twomusketeers.presin_compose.R
 import com.twomusketeers.presin_compose.components.OtpTextField
 import com.twomusketeers.presin_compose.ui.theme.PresINComposeTheme
 
 @SuppressLint("UnrememberedMutableState")
 @Composable
-fun VerifyOTP() {
+fun VerifyOTP(navController: NavHostController) {
     var otpValue by remember {
         mutableStateOf("")
     }
@@ -113,12 +113,5 @@ fun VerifyOTP() {
                 }
             }
         }
-    }
-}
-@Preview(showBackground = true)
-@Composable
-fun VerifyOTPPreview() {
-    PresINComposeTheme {
-        VerifyOTP()
     }
 }

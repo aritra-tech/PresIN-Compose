@@ -1,4 +1,4 @@
-package com.twomusketeers.presin_compose.ui.screens.forgot_password
+package com.twomusketeers.presin_compose.ui.screens.auth_flow.forgot_password
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.layout.Column
@@ -28,13 +28,13 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavHostController
 import com.twomusketeers.presin_compose.R
-import com.twomusketeers.presin_compose.ui.theme.PresINComposeTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 @SuppressLint("UnrememberedMutableState")
 @Composable
-fun ForgotPassword() {
+fun ForgotPassword(navController: NavHostController) {
 
     var email by remember { mutableStateOf("") }
     val isDetailsValid by derivedStateOf {
@@ -101,13 +101,5 @@ fun ForgotPassword() {
                 }
             }
         }
-    }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun ForgotPasswordPreview() {
-    PresINComposeTheme {
-        ForgotPassword()
     }
 }
