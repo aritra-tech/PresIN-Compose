@@ -29,7 +29,7 @@ fun OtpTextField(
 ) {
 
     BasicTextField(
-        modifier = modifier.padding(start = 20.dp),
+        modifier = modifier.padding(start = 10.dp),
         value = TextFieldValue(otpText, selection = TextRange(otpText.length)),
         onValueChange = {
             if (it.text.length <= otpCount) {
@@ -44,7 +44,7 @@ fun OtpTextField(
                         index = index,
                         text = otpText
                     )
-                    Spacer(modifier = Modifier.width(20.dp))
+                    Spacer(modifier = Modifier.width(30.dp))
                 }
             }
         }
