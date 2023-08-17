@@ -10,4 +10,10 @@
     <string name="login">Login</string>
     <string name="don_t_have_an_account">Don’t have an account?</string>
     <string name="create">Create</string>
+    <string name="forgot_password_title">Forgot password</string>
+    <string name="we_will_send_an_otp_to_your_email">We will send an OTP to your email</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="don_t_receive_any_mail">Don\'t receive any mail?</string>
+    <string name="resend">Resend</string>
 </resources>
